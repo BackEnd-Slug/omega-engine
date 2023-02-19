@@ -3,23 +3,23 @@ Vue.component("news-ticker", {
     {
         return {
             messages: [
-                "modding.net",
-                "layer name moment",
-                "weird themes",
-                "hey, you could make a mod out of this",
-                "when the imp- oh wrong mod",
-                "basically there is a thi- (softcapped)",
+                'Hi, Using <a href="https://addthis.com">AddThis</a>.',
+                'Moment... (<a href="https://phurcase-japan78.blogspot.com/2023/01/melhor-nokia-no-coreano.html">Nokia in korean</a>)',
+                "The goods",
+                "https://whatsapp.com/omega-engine",
+                "ITS AWESOME!",
+                '<a href="https://github.com/">GitHub</a>',
                 "incremental thing i guess",
                 "omega layers but steam engine",
                 "mod.js: powering layers",
                 "i ran out of words on my hard drive :(",
-                "what if i told you that secret achievements are real",
-                "omega layers 2, coming in 2048 years",
-                "finally a major release",
-                "go visit omega layers ez and sussy layers 2",
-                "join the community server",
-                "content when",
-                "omega engine v-1.0.0: we removed all the features that aren't the main game"
+                "god",
+                "ohj this",
+                "finally a buzzer.",
+                "ITS GOING",
+                "ITS BAD?",
+                "Contact Me",
+                '<a href="https://blogger.com/">Blogger me</a>'
             ],
             currentMessage: "",
             messageIndex: -1
