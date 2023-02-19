@@ -163,6 +163,12 @@ Vue.component("settings-menu", {
     <button @click="clear()">Clear</button>
     <button @click="download()">Download as .txt</button>
 </div>
+<div class="settings-panel-container">
+<div class="settings-panel">
+        <label>Player Name: <input type="text" v-model="settings.playerName"/></label>
+        <button>Get Started with New File</button>
+    </div>
+</div>
 <div class="settings-row">
     <p>Controls: M to Max All on the selected Layer<br/>
     Left and Right Arrows to change Layers<br/>
