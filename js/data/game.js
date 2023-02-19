@@ -91,6 +91,13 @@ const game = {
     },
     achievements: [
         new Achievement("You played!", "If you dont have this, you shouldn't exist", "&omega;", () => true),
+        new Achievement("You played!", "If you dont have this, you shouldn't exist", "1", () => game.layers[0].resource.gt(0)),
+        new Achievement("Twos", "Want to twos?", "2", () => game.layers[0].resource.gt(1)),
+        new Achievement("Three Alpha", "Want to twos?", "2", () => game.layers[0].resource.gt(2)),
+        new Achievement("Tens", "Want to tens?", "10", () => game.layers[0].resource.gt(10)),
+        new Achievement("TWENTY", "Want to TWENTY?", "20", () => game.layers[0].resource.gt(20)),
+        new Achievement("1/2 HUNDRED", "Want to FIFITY?", "50", () => game.layers[0].resource.gt(50)),
+        new Achievement("AWESOME HUNDREDS", "Yes! Hundreds.", "10<sup>2</sup>", () => game.layers[0].resource.gt(100)),
         new Achievement("Aleph-0", "Start gaining aleph", "&aleph;", () => game.alephLayer.isUnlocked()),
         new Achievement("Aleph-1", "Have 1e75 aleph", "&aleph;<sub>1</sub>", () => game.alephLayer.aleph.gte("1e75")),
         new Achievement("Aleph-2", "Have 1e200 aleph", "&aleph;<sub>2</sub>", () => game.alephLayer.aleph.gte("1e200")),
