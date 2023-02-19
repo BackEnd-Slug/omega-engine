@@ -136,7 +136,8 @@ const game = {
         theme: mod.themes[0][1],
         layerNames: mod.layerNames[0][1],
         font: mod.fonts[0][1],
-        saveInfo: "i have no idea"
+        saveInfo: "i have no idea",
+        playerName: ""
     },
 };
 const initialGame = functions.getSaveString();
