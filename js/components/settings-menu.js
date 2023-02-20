@@ -166,7 +166,8 @@ Vue.component("settings-menu", {
 <div class="settings-panel-container">
 <div class="settings-panel">
         <label>Player Name: <input type="text" v-model="settings.playerName"/></label>
-        <button>Get Started with New File</button>
+        <button onclick="game.roolText.setPlayerName()">Roll</button>
+        <button onclick="functions.goGithubNew()">Get Started with New File</button>
     </div>
 </div>
 <div class="settings-row">
