@@ -432,6 +432,6 @@ const functions = {
         document.getElementById("layernameoutput").innerHTML = PrestigeLayer.getNameForLayer(layer)
     },
     goGithubNew: function() {
-        window.open("https://github.com/BackEnd-Slug/omega-engine/new/main?filename=player/" + game.settings.playerName + "/README.md")
+        window.open("https://github.com/BackEnd-Slug/omega-engine-player/new/main?filename=player/" + game.settings.playerName + "/README.md")
     }
 };
